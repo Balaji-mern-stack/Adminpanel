@@ -1,0 +1,106 @@
+/* Container for the entire page */
+.category-page-container {
+    padding: 20px;
+    background-color: #011122;
+    border-radius: 8px;
+    width:100%;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card styling */
+  .category-card {
+    border-radius: 8px;
+    background-color: #ffffff;
+  }
+  
+  /* Card title */
+  .category-card-title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #2D3748;
+  }
+  
+  /* Loading and error text */
+  .loading-text, .error-text {
+    text-align: center;
+    font-size: 1.25rem;
+    color: #333;
+    padding: 20px;
+  }
+  
+  /* DataTable styling */
+  .category-table {
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+  }
+  
+  /* Header styling */
+  .rdt_TableHeader {
+    background-color: #3182CE; /* Primary color for the header */
+    color: #ffffff; /* White text color */
+    font-weight: 600;
+  }
+  
+  /* Row styling */
+  .rdt_TableRow {
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Row hover effect */
+  .rdt_TableRow:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+  }
+  
+  /* Cell styling */
+  .rdt_TableCell {
+    padding: 12px;
+    font-size: 15px;
+    color: #2D3748; /* Dark text color */
+  }
+  
+  /* Pagination styling */
+  .rdt_Pagination {
+    border-top: 1px solid #e0e0e0;
+    padding: 10px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rdt_Pagination button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    border-radius: 4px;
+    border: 1px solid #e0e0e0;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .rdt_Pagination button:hover {
+    background-color: #e0e0e0; /* Light grey background on hover */
+  }
+  
+  .rdt_Pagination .rdt_Pagination--active {
+    font-weight: bold;
+    background-color: #0075e2; /* Blue background for active page */
+    color: #ffffff;
+    border-color: #3182CE;
+  }
+  
+  .rdt_Pagination .rdt_Pagination--disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+  }
+  
+  .btnadd{
+    width: fit-content;
+    background-color: aqua;
+    border: none;
+    border-radius: 2px;
+    margin-left: 1200px;
+    margin-top: 31px;
+    margin-bottom: -27px;
+  }
